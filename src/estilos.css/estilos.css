@@ -1,0 +1,37 @@
+.contenedor-flex {
+  /*padding: 20 auto; */
+  margin: 0 auto;
+  /*margin-top: 100px;
+  marging-bottom: 100; 
+  marging-left: 100px; 
+  marging-right: 100;*/
+  width: 70%;
+  height: 300;
+  border: 1px solid black;
+
+  /*display: flex; 
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  align-content: flex-start;*/
+}
+
+.hijo {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+/*mostrar con muchos div */
+
+.uno {
+  /*height: 200px*/
+  display: flex;
+  order: 4;
+  flex-grow: 0;
+  flex-shrink: 0;
+  /*flex-basis: 25px;
+  align-self: center;*/
+}
